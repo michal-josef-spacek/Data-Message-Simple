@@ -18,6 +18,7 @@ meta-spec:
 name: Data-Message-Simple
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt
