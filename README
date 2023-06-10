@@ -24,7 +24,8 @@ METHODS
 
     *       "text"
 
-            Message text. It's required.
+            Message text. Maximum length of text is 4096 characters. It's
+            required.
 
     *       "type"
 
@@ -71,7 +72,9 @@ EXAMPLE
      print 'Text: '.$obj->text."\n";
 
      # Output:
-     # TODO
+     # Message type: info
+     # ISO 639-1 language code: en
+     # Text: This is text message.
 
 DEPENDENCIES
     Mo, Mo::utils, Mo::utils::Language, Readonly.
