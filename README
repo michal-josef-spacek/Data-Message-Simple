@@ -6,7 +6,7 @@ SYNOPSIS
 
      my $obj = Data::Message::Simple->new(%params);
      my $lang = $obj->lang;
-     my $name = $obj->text;
+     my $text = $obj->text;
      my $type = $obj->type;
 
 METHODS

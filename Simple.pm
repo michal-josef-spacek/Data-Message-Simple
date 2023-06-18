@@ -59,7 +59,7 @@ Data::Message::Simple - Data object for simple message.
 
  my $obj = Data::Message::Simple->new(%params);
  my $lang = $obj->lang;
- my $name = $obj->text;
+ my $text = $obj->text;
  my $type = $obj->type;
 
 =head1 METHODS
