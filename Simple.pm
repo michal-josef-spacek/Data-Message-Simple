@@ -3,7 +3,7 @@ package Data::Message::Simple;
 use strict;
 use warnings;
 
-use Mo qw(build default is);
+use Mo qw(build is);
 use Mo::utils qw(check_length check_required check_strings);
 use Mo::utils::Language qw(check_language);
 use Readonly;
@@ -21,7 +21,6 @@ has text => (
 );
 
 has type => (
-	default => 'info',
 	is => 'ro',
 );
 
@@ -36,6 +35,9 @@ sub BUILD {
 	check_length($self, 'text', 4096);
 
 	# Check message type.
+	if (! defined $self->{'type'}) {
+		$self->{'type'} = 'info';
+	}
 	check_strings($self, 'type', \@TYPES);
 
 	return;
