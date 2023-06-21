@@ -55,6 +55,15 @@ METHODS
 
     Returns string.
 
+ERRORS
+     new():
+             From Mo::utils:
+                     Parameter 'text' has length greater than '4096'.
+                     Parameter 'text' is required.
+                     Parameter 'type' must be one of defined strings.
+             From Mo::utils::Language:
+                     Language code 'xx' isn't ISO 639-1 code.
+
 EXAMPLE
      use strict;
      use warnings;

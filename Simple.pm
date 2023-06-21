@@ -121,6 +121,16 @@ Get message type.
 
 Returns string.
 
+=head1 ERRORS
+
+ new():
+         From Mo::utils:
+                 Parameter 'text' has length greater than '4096'.
+	         Parameter 'text' is required.
+	         Parameter 'type' must be one of defined strings.
+         From Mo::utils::Language:
+	         Language code 'xx' isn't ISO 639-1 code.
+
 =head1 EXAMPLE
 
 =for comment filename=create_and_print_message.pl
