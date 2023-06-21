@@ -1,4 +1,4 @@
-0.02
+0.02 2023-06-21T12:32:30+02:00
  - Add ERRORS section to doc.
  - Add tests for errors in constructor.
  - Fix default value of type.
