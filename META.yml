@@ -29,8 +29,8 @@ requires:
   Readonly: 0
   perl: 5.8.0
 resources:
-  bugtracker: https://github.com/michal-josef-spacek/Data-Simple/issues
-  homepage: https://github.com/michal-josef-spacek/Data-Simple
+  bugtracker: https://github.com/michal-josef-spacek/Data-Message-Simple/issues
+  homepage: https://github.com/michal-josef-spacek/Data-Message-Simple
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/michal-josef-spacek/Data-Simple
+  repository: git://github.com/michal-josef-spacek/Data-Message-Simple
 version: '0.02'
