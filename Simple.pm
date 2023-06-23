@@ -128,8 +128,12 @@ Returns string.
  new():
          From Mo::utils:
                  Parameter 'text' has length greater than '4096'.
+                         Value: %s
 	         Parameter 'text' is required.
+                         Value: %s
 	         Parameter 'type' must be one of defined strings.
+                         String: %s
+                         Possible strings: %s
          From Mo::utils::Language:
 	         Language code 'xx' isn't ISO 639-1 code.
 
