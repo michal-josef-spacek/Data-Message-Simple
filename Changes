@@ -1,4 +1,4 @@
-0.03
+0.03 2024-02-29T18:26:49+01:00
  - Improve ERRORS section in doc.
  - Rewrite to new Mo::utils::Language and its new error message.
  - Update copyright years.
