@@ -66,7 +66,8 @@ ERRORS
                              String: %s
                              Possible strings: %s
              From Mo::utils::Language:
-                     Language code 'xx' isn't ISO 639-1 code.
+                     Parameter 'lang' doesn't contain valid ISO 639-1 code.
+                             Value: %s
 
 EXAMPLE
      use strict;

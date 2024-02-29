@@ -5,7 +5,7 @@ use warnings;
 
 use Mo qw(build is);
 use Mo::utils qw(check_length check_required check_strings);
-use Mo::utils::Language qw(check_language);
+use Mo::utils::Language 0.04 qw(check_language);
 use Readonly;
 
 Readonly::Array our @TYPES => qw(info error);
@@ -135,7 +135,8 @@ Returns string.
                          String: %s
                          Possible strings: %s
          From Mo::utils::Language:
-	         Language code 'xx' isn't ISO 639-1 code.
+                 Parameter 'lang' doesn't contain valid ISO 639-1 code.
+                         Value: %s
 
 =head1 EXAMPLE
 
