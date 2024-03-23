@@ -5,7 +5,7 @@ use warnings;
 
 use Mo qw(build is);
 use Mo::utils qw(check_length check_required check_strings);
-use Mo::utils::Language 0.04 qw(check_language);
+use Mo::utils::Language 0.05 qw(check_language_639_1);
 use Readonly;
 
 Readonly::Array our @TYPES => qw(info error);
@@ -28,7 +28,7 @@ sub BUILD {
 	my $self = shift;
 
 	# Check lang.
-	check_language($self, 'lang');
+	check_language_639_1($self, 'lang');
 
 	# Check text.
 	check_required($self, 'text');
@@ -136,6 +136,7 @@ Returns string.
                          Possible strings: %s
          From Mo::utils::Language:
                  Parameter 'lang' doesn't contain valid ISO 639-1 code.
+                         Codeset: %s
                          Value: %s
 
 =head1 EXAMPLE
