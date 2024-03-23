@@ -10,7 +10,7 @@ use Readonly;
 
 Readonly::Array our @TYPES => qw(info error);
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 has lang => (
 	is => 'ro',
@@ -188,6 +188,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
