@@ -101,7 +101,7 @@ Returns instance of object.
 
 =head2 C<lang>
 
- my $lane = $obj->lang;
+ my $lang = $obj->lang;
 
 Get ISO 639-1 language code of text.
 
